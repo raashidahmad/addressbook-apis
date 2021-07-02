@@ -1,0 +1,24 @@
+{
+  "name": "address-book-apis",
+  "version": "1.0.0",
+  "description": "This is a sample address book being written for learning Rest APIs using NodeJs",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NodeJs",
+    "NodeJsRestAPIs"
+  ],
+  "author": "raashid.ahmad@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
