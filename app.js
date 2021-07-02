@@ -13,3 +13,12 @@ const con = mongoose.connection;
 con.on('open', () => {
     console.log('Connected to MongoDb')
 });
+
+app.use(express.json());
+
+const contactRouter = require('./routing/routes');
+app.use('/contacts', contactRouter);
+
+app.listen('4000', () => {
+    console.log('Server started');
+});
