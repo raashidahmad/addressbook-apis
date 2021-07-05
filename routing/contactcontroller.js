@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+var jwt = require('jsonwebtoken');
 const Contact = require('./models/contact');
 
 router.get('/', async (req, res) => {
